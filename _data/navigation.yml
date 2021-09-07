@@ -1,7 +1,7 @@
 main:
   - title: "Inicio"
     url: /
-  - title: "Articles"
+  - title: "Posts"
     url: /year-archive/
   - title: "Categories"
     url: /categories/
