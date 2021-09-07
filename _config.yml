@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "BlackSheep4"
-  avatar           : "/assets/images/Black2.png"
+  avatar           : "/assets/images/avatar.png"
   bio              : "Future Pentester & CTF player<br>Preparing eJPT"
   location         : "Spain"
   email            : "alvaroblc2904@gmail.com"
