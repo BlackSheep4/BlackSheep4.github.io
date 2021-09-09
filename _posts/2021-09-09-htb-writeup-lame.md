@@ -19,7 +19,7 @@ tags:
   - easy
 ---
 
-*NOTA: A lo largo del artículo hago uso de diferentes variables como "<ip_address>", "<ip_target>", "<port>"... Estas variables hacen referencia a:*
+*NOTA: A lo largo del artículo hago uso de diferentes variables como `ip_address>, <ip_target>, <port>`... Estas variables hacen referencia a:*
 
 - ip_address: Tu dirección IP
 - ip_target: La dirección IP de tu víctima
