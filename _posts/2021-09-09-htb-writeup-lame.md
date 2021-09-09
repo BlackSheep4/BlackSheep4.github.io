@@ -285,7 +285,7 @@ Compatible Payloads
 
 Y ahora a esperar la magia:
 
-![](/assets/images/htb-writeup-lame/13.png)
+![](/assets/images/htb-writeup-lame/13.PNG)
   
 Con muy poco seríamos root. Evitando hacer una escalada de privilegios manual.
 
@@ -309,11 +309,11 @@ Nos indica que para poder explotar esta vulnerabilidad la única manera de hacer
 el uso de herramientas automáticas, así que habrá que buscar otra manera de explotar esta vulnerabilidad. Con una rápida búsqueda en Internet, ya tenemos scripts para
 realizar el ataque.
 
-![](/assets/images/htb-writeup-lame/16.png)
+![](/assets/images/htb-writeup-lame/16.PNG)
   
 Investigo el código de uno de los scripts y montamos el script:
   
-![](/assets/images/htb-writeup-lame/17.png)
+![](/assets/images/htb-writeup-lame/17.PNG)
 
 ```
 ┌──(blacksheep4㉿bluedragon)-[~/Escritorio/HTB/Lame]
@@ -329,10 +329,10 @@ Por otro lado ejecutamos el script descargado:
 
 Ejecutando este script estamos entablando una Reverse Shell para obtener RCE (Remote Code Execution) / Ejecución Remota de Comandos.
   
-![](/assets/images/htb-writeup-lame/19.png)
+![](/assets/images/htb-writeup-lame/19.PNG)
 
 Habriamos accedido directamente al servidor! Pudiendo localizar la flag de usuario.
-![](/assets/images/htb-writeup-lame/20.png)
+![](/assets/images/htb-writeup-lame/20.PNG)
   
 La escalada de privilegios es mediante SUID. Hay un binario: nmap, al ser una versión antigua cuenta con el modo interactivo, pudiendo hacer uso de este para escalar
 privilegios. No lo comento por que por razones que desconozco fue imposible para mi llegar a root de esta manera. Pero en inicio es una forma de llegar a root. :)  
