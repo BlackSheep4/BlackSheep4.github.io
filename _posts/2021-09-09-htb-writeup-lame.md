@@ -289,7 +289,7 @@ Y ahora a esperar la magia:
   
 Con muy poco seríamos root. Evitando hacer una escalada de privilegios manual.
 
-## Vulnerabilidad en DISTCC
+## Vulnerabilidad en DISTCC (OSCP Style)
 
 Finalmente mediante vulnerabilidad distcc, es realmente sencillo, mediante `searchsploit`, buscamos la vulnerabilidad de nuestro servicio.
 
