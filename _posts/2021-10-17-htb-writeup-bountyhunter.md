@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Lame - Hack The Box
+title: BountyHunter - Hack The Box
 excerpt: "BountyHunter es una máquina de nivel medio, con un sistema operativo Linux, que se explota mediante un ataque XXE aprovechando la confiabilidad del servidor con el
 input del usuario."
 date: 2021-10-17
